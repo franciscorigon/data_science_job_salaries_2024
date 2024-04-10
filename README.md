@@ -30,7 +30,7 @@ Os insights derivados deste estudo têm o potencial de beneficiar todos aqueles 
    - 6.1 [Considerações](#61-considerações)
    - 6.2 [Sugestão de dados adicionais](#62-sugestão-de-dados-adicionais)
 
-## 1 Pergunta
+## 1. Pergunta
 
 Tarefa de negócios: Analisar os dados de salários de profissionais de Data Science para obter insights sobre as tendências salariais e os fatores que influenciam os ganhos dos profissionais de Data Science em 2024.
 
@@ -53,7 +53,7 @@ Partes interessadas secundárias: Interessados em questões salariais e profissi
 
 --- 
 
-## 2 Preparação
+## 2. Preparação
 
 Fonte: Os dados foram obtidos do conjunto " *Data Science Job Salaries 2024*", disponível no Kaggle em 03/04/2024. Este conjunto contém informações sobre salários de empregos no domínio da ciência de dados.
 
@@ -87,7 +87,7 @@ Os dados estão estruturados no formato CSV (*Comma-separated values*), com um t
 - Localização da empresa
 - Tamanho da empresa
 
-## 3 Processar os dados para limpar em R
+## 3. Processar os dados para limpar em R
 
 Nesta etapa, é realizada a limpeza e preparação dos dados para a análise subsequente. Isso incluirá lidar com diversos aspectos, como valores ausentes, duplicados e possíveis inconsistências nos dados.
 
@@ -720,7 +720,7 @@ print(pie_chart)
 table(salariesIV$company_size == "L") #612
 ```
 
-# 5 Compartilhamento
+# 5. Compartilhamento
 > O numeral atribuído a cada análise corresponderá à sua referência na apresentação subsequente. Por exemplo, a Análise 4.1 será visual e textualmente apresentada no Compartilhamento 5.1.
 
 ## 5.1 Compartilhando ocorrência dos dados
@@ -868,7 +868,7 @@ Esses dados fornecem insights valiosos sobre as práticas de trabalho adotadas p
 
 Entender esses padrões é crucial para profissionais que buscam alinhar suas expectativas de trabalho com as práticas predominantes em empresas de diferentes tamanhos. Além disso, os empregadores podem usar essas informações para adaptar suas políticas de trabalho e atrair talentos de acordo com as preferências de modalidade de emprego.
 
-# 6 Ação
+# 6. Ação
 
 Após uma análise abrangente dos dados sobre salários na área de Ciência de Dados, várias conclusões e insights surgiram, oferecendo orientações valiosas para ações futuras.
 
@@ -930,7 +930,7 @@ The insights derived from this study have the potential to benefit all those who
    - 6.1 [Considerations](#61-considerations)
    - 6.2 [Suggestion of additional data](#62-suggested-additional-data)
 
-## 1 Question
+## 1. Question
 
 Business task: Analyze data science professional salary data to gain insights into salary trends and factors influencing data science professional earnings in 2024.
 
@@ -951,7 +951,7 @@ Secondary stakeholders: Those interested in salary issues and professionals from
 - What is the impact of company size on the remuneration of Data Science professionals?
 - How does the size of the company influence the choice of employment modality (in-person, remote, etc.) for Data Science professionals?
 
-## 2 Preparation
+## 2. Preparation
 
 Source: The data was obtained from the "Data Science Job Salaries 2024" set, available on Kaggle on 03/04/2024. This set contains salary information for jobs in the data science domain.
 
@@ -1615,7 +1615,7 @@ print(pie_chart)
 table(salariesIV$company_size == "L") #612
 ```
 
-# 5 Sharing
+# 5. Sharing
 > The number assigned to each analysis will correspond to its reference in the subsequent presentation. For example, Analysis 4.1 will be visually and textually presented in Sharing 5.1.
 
 ## 5.1 Sharing data occurrence
@@ -1762,7 +1762,7 @@ This data provides valuable insights into the working practices adopted by compa
 
 Understanding these standards is crucial for professionals seeking to align their work expectations with prevailing practices in companies of different sizes. Additionally, employers can use this information to adapt their work policies and attract talent according to employment preferences.
 
-# 6 Action
+# 6. Action
 
 After a comprehensive analysis of data science salary data, several conclusions and insights emerged, offering valuable guidance for future action.
 
